@@ -36,7 +36,7 @@ computer_choice = random.randint(0, 2)
 user_choice = int(
     input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
 )
-if user_choice >= 0 or user_choice <= 2:
+if user_choice >= 0 and user_choice <= 2:
     print(f"You chose {choices[user_choice]}")
     print(images[user_choice])
     print(f"Computer chose {choices[computer_choice]}")
