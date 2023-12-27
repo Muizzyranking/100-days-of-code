@@ -89,7 +89,6 @@ while "_" in display and lifes > 0:
         lifes -= 1
     print(display)
     print(stages[lifes])
-    print(lifes)
 
 if lifes > 0:
     print("You win")
