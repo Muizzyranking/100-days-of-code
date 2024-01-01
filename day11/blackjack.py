@@ -1,5 +1,6 @@
 import random
 import os
+from arts import logo
 
 
 def clear():
@@ -61,7 +62,7 @@ def game():
     check_score(user, dealer)
 
 
-is_playing = True
-while input("Enter 'y' to continue playing and 'n' to exit: ").lower() == "y":
+while input("Enter 'y' to play or any key to exit: ").lower() == "y":
     clear()
+    print(logo)
     game()
