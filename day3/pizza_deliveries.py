@@ -3,7 +3,7 @@
 # pepperoni: $2 for small, $3 for medium and large
 # extra cheese: $1
 
-print("Welcome to Python Pizza Deliveries!")
+print("Welcome to Python Pizza Deliferies!")
 size = input("What size pizza do you want? S, M, or L: ")
 add_pepperoni = input("Do you want pepperoni? Y or N: ")
 extra_cheese = input("Do you want extra cheese? Y or N: ")
