@@ -10,6 +10,7 @@ def clear():
 def set_diffculty():
     """Request user to choose difficulty"""
     mode = input("Choose easy or hard mode: ").lower()
+    trials = 0
     if mode == "easy":
         print("You have 10 tries")
         trials = 10
@@ -23,7 +24,7 @@ def set_diffculty():
 
 
 def play_game():
-    """Generates a random number between 1 and 100"""
+    """Run guess the game"""
     number = random.randint(1, 100)
     trials = 0
     print("Welcome to number guessing game ")
